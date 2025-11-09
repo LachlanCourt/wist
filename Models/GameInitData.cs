@@ -1,0 +1,1 @@
+public record JoinGameData(string UserName, string GameCode);

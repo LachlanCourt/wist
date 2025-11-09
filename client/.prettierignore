@@ -1,0 +1,10 @@
+# Ignore artifacts:
+assets/*
+vite-env.d.ts
+.gitignore
+eslint.config.js
+package.json
+README.md
+tsconfig.*
+vite.config.ts
+yarn.lock
