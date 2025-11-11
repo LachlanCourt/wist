@@ -1,0 +1,1 @@
+public record PlaceBetData(int Bet);

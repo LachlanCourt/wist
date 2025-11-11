@@ -2,6 +2,7 @@ public class Player {
     public string UserName { get; set; }
     public string UserId { get; set; }
     public List<Card> Cards { get; set; }
+    public int? CurrentBet { get; set; }
 
     public Player() {}
 

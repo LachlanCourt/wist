@@ -31,7 +31,7 @@ export const Lobby = () => {
   });
 
   return (
-    <div className="bg-blue-200 h-screen">
+    <div className="bg-blue-200 h-full overflow-y-auto">
       <div className="flex justify-center text-gray-800 text-4xl font-bold p-3 shadow-md">
         LOBBY
       </div>
