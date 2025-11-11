@@ -10,4 +10,6 @@ export class UrlProvider {
   };
 
   public static readonly GetStartGameUrl = () => "start";
+
+  public static readonly GetPlaceBetUrl = () => "placebet";
 }

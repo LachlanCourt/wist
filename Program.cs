@@ -69,6 +69,7 @@ builder.Services.AddTransient<ISaveGameService, SaveGameService>();
 builder.Services.AddTransient<IGameStateService, GameStateService>();
 builder.Services.AddTransient<IPlayerNotificationService, PlayerNotificationService>();
 builder.Services.AddSingleton<MessageHub, MessageHub>();
+builder.Services.AddTransient<IGamePlayService, GamePlayService>();
 
 var app = builder.Build();
 
@@ -89,6 +90,7 @@ app.UseAuthMiddleware();
 
 app.MapGameInitEndpoints();
 app.MapGameStateEndpoints();
+app.MapGameplayEndpoints();
 
 app.UseEndpoints(endpoints =>
 {

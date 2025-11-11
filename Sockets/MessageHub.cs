@@ -7,6 +7,11 @@ namespace Sockets
     {
 
         public async Task SendMessageAsync(string userId, string message) {
+            if (Clients == null) {
+                Console.Error.WriteLine("Clients is null");
+                return;
+            }
+
             await Clients?.User(userId)?.SendAsync("ReceiveMessage", message);
         }
 

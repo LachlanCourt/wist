@@ -1,0 +1,133 @@
+{
+  "GameCode": "03FX63",
+  "Players": [
+    {
+      "UserName": "latch",
+      "UserId": "6f584ef6-7e63-4c0e-bbe0-a3b1976d97c4",
+      "Cards": [
+        {
+          "Suit": "SPADES",
+          "Value": 4
+        },
+        {
+          "Suit": "DIAMONDS",
+          "Value": 6
+        },
+        {
+          "Suit": "DIAMONDS",
+          "Value": 9
+        },
+        {
+          "Suit": "HEARTS",
+          "Value": 6
+        },
+        {
+          "Suit": "SPADES",
+          "Value": 8
+        },
+        {
+          "Suit": "CLUBS",
+          "Value": 10
+        },
+        {
+          "Suit": "DIAMONDS",
+          "Value": 1
+        },
+        {
+          "Suit": "SPADES",
+          "Value": 9
+        },
+        {
+          "Suit": "HEARTS",
+          "Value": 12
+        },
+        {
+          "Suit": "DIAMONDS",
+          "Value": 8
+        }
+      ],
+      "CurrentBet": null
+    },
+    {
+      "UserName": "lorna",
+      "UserId": "539347d0-9604-4545-8945-a64ac47b82bf",
+      "Cards": [
+        {
+          "Suit": "HEARTS",
+          "Value": 4
+        },
+        {
+          "Suit": "CLUBS",
+          "Value": 4
+        },
+        {
+          "Suit": "SPADES",
+          "Value": 7
+        },
+        {
+          "Suit": "HEARTS",
+          "Value": 3
+        },
+        {
+          "Suit": "SPADES",
+          "Value": 6
+        },
+        {
+          "Suit": "SPADES",
+          "Value": 13
+        },
+        {
+          "Suit": "HEARTS",
+          "Value": 10
+        },
+        {
+          "Suit": "CLUBS",
+          "Value": 2
+        },
+        {
+          "Suit": "HEARTS",
+          "Value": 2
+        },
+        {
+          "Suit": "SPADES",
+          "Value": 1
+        }
+      ],
+      "CurrentBet": null
+    }
+  ],
+  "RoundNumber": 1,
+  "TrickNumber": 1,
+  "HostId": "6f584ef6-7e63-4c0e-bbe0-a3b1976d97c4",
+  "CurrentGameState": "PLAYING",
+  "CurrentRoundState": "BETTING",
+  "CurrentPlayer": "6f584ef6-7e63-4c0e-bbe0-a3b1976d97c4",
+  "ValidBetsThisRound": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "ValidBetsThisTurn": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "CurrentBetTotal": 0,
+  "CardsThisRound": 10
+}
