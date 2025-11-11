@@ -1,0 +1,132 @@
+{
+  "GameCode": "X656XS",
+  "Players": [
+    {
+      "UserName": "test",
+      "UserId": "1dbee358-6d32-4b96-bba3-7487a80ee455",
+      "Cards": [
+        {
+          "Suit": "SPADES",
+          "Value": 11
+        },
+        {
+          "Suit": "DIAMONDS",
+          "Value": 11
+        },
+        {
+          "Suit": "SPADES",
+          "Value": 9
+        },
+        {
+          "Suit": "HEARTS",
+          "Value": 13
+        },
+        {
+          "Suit": "SPADES",
+          "Value": 6
+        },
+        {
+          "Suit": "SPADES",
+          "Value": 13
+        },
+        {
+          "Suit": "DIAMONDS",
+          "Value": 3
+        },
+        {
+          "Suit": "DIAMONDS",
+          "Value": 6
+        },
+        {
+          "Suit": "HEARTS",
+          "Value": 5
+        },
+        {
+          "Suit": "CLUBS",
+          "Value": 11
+        }
+      ],
+      "CurrentBet": 6
+    },
+    {
+      "UserName": "test 2",
+      "UserId": "c2a78716-a0cf-4148-b14c-dd6d4821130d",
+      "Cards": [
+        {
+          "Suit": "HEARTS",
+          "Value": 1
+        },
+        {
+          "Suit": "CLUBS",
+          "Value": 13
+        },
+        {
+          "Suit": "SPADES",
+          "Value": 7
+        },
+        {
+          "Suit": "DIAMONDS",
+          "Value": 9
+        },
+        {
+          "Suit": "SPADES",
+          "Value": 5
+        },
+        {
+          "Suit": "CLUBS",
+          "Value": 2
+        },
+        {
+          "Suit": "SPADES",
+          "Value": 4
+        },
+        {
+          "Suit": "DIAMONDS",
+          "Value": 12
+        },
+        {
+          "Suit": "DIAMONDS",
+          "Value": 10
+        },
+        {
+          "Suit": "HEARTS",
+          "Value": 3
+        }
+      ],
+      "CurrentBet": null
+    }
+  ],
+  "RoundNumber": 1,
+  "TrickNumber": 1,
+  "HostId": "1dbee358-6d32-4b96-bba3-7487a80ee455",
+  "CurrentGameState": "PLAYING",
+  "CurrentRoundState": "BETTING",
+  "CurrentPlayer": "c2a78716-a0cf-4148-b14c-dd6d4821130d",
+  "ValidBetsThisRound": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "ValidBetsThisTurn": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "CurrentBetTotal": 6,
+  "CardsThisRound": 10
+}

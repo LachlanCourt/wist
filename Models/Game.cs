@@ -43,6 +43,10 @@ public class Game {
         ResetBet();
         
         StartTurn();
+
+        foreach (var player in Players) {
+            player.CurrentBet = null;
+        }
     }
 
     public void StartTurn() {
@@ -79,6 +83,25 @@ public class Game {
         foreach(var player in Players) {
             if(player.UserId != userId) {
                 player.Cards = null;
+            }
+        }
+    }
+
+    public void PlaceBet(int bet, string userId) {
+        Players.First(p => p.UserId == userId).CurrentBet = bet;
+        CurrentBetTotal += bet;
+    }
+
+    public void NextTurn() {
+        if (CurrentRoundState == RoundState.BETTING) {
+            var currentPlayerIndex = Players.FindIndex(p => p.UserId == CurrentPlayer);
+            var nextPlayerIndex = currentPlayerIndex + 1;
+            if (nextPlayerIndex == Players.Count) nextPlayerIndex = 0;
+
+            CurrentPlayer = Players[nextPlayerIndex].UserId;
+
+            if (Players[nextPlayerIndex].CurrentBet != null) {
+                CurrentRoundState = RoundState.PLAYING;
             }
         }
     }

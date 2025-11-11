@@ -5,6 +5,7 @@ import { useAuthorizationToken } from "../../hooks/useAuthorizationToken";
 import { GameState } from "../../constants/GameState";
 import { RoundState } from "../../constants/RoundState";
 import { BetSelector } from "../../components/BetSelector/BetSelector";
+import { Players } from "../../components/Players";
 
 export const Game = () => {
   const { players, currentPlayer, currentRoundState } = useGameContext();
@@ -23,6 +24,7 @@ export const Game = () => {
       </div>
 
       <div>
+        <Players />
         {currentPlayer === userId &&
           currentRoundState === RoundState.BETTING && <BetSelector />}
         <Hand cards={cards} />
