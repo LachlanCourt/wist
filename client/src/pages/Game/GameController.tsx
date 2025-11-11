@@ -8,6 +8,7 @@ import { useSocket } from "../../hooks/useSocket/useSocket";
 import type { GameData } from "../../models/GameData";
 import { Game } from "./Game";
 import { Lobby } from "./Lobby";
+import { RoundState } from "../../constants/RoundState";
 
 export const GameController = () => {
   const [gameData, setGameData] = useState<GameData>();
@@ -19,7 +20,10 @@ export const GameController = () => {
     const currentGameState = GameState[
       data.currentGameState
     ] as unknown as GameState;
-    return { ...data, currentGameState };
+    const currentRoundState = RoundState[
+      data.currentRoundState
+    ] as unknown as RoundState;
+    return { ...data, currentGameState, currentRoundState };
   }, []);
 
   const { data: apiGameData } = useQuery<GameData>({

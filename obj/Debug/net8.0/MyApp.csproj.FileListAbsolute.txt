@@ -29,6 +29,7 @@
 /home/lachlan/code/wist/MyApp/obj/Debug/net8.0/MyApp.csproj.CoreCompileInputs.cache
 /home/lachlan/code/wist/MyApp/obj/Debug/net8.0/MyApp.MvcApplicationPartsAssemblyInfo.cs
 /home/lachlan/code/wist/MyApp/obj/Debug/net8.0/MyApp.MvcApplicationPartsAssemblyInfo.cache
+/home/lachlan/code/wist/MyApp/obj/Debug/net8.0/MyApp.sourcelink.json
 /home/lachlan/code/wist/MyApp/obj/Debug/net8.0/staticwebassets.build.json
 /home/lachlan/code/wist/MyApp/obj/Debug/net8.0/staticwebassets.development.json
 /home/lachlan/code/wist/MyApp/obj/Debug/net8.0/staticwebassets/msbuild.MyApp.Microsoft.AspNetCore.StaticWebAssets.props
@@ -43,4 +44,4 @@
 /home/lachlan/code/wist/MyApp/obj/Debug/net8.0/MyApp.pdb
 /home/lachlan/code/wist/MyApp/obj/Debug/net8.0/MyApp.genruntimeconfig.cache
 /home/lachlan/code/wist/MyApp/obj/Debug/net8.0/ref/MyApp.dll
-/home/lachlan/code/wist/MyApp/bin/Debug/net8.0/savegames/T8KT4D.json
+/home/lachlan/code/wist/MyApp/bin/Debug/net8.0/savegames/R33ULJ.json

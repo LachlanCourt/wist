@@ -11,12 +11,12 @@ public class SaveGameService : ISaveGameService {
     }
 
 
-    public void SaveGame(Game game) {
+    public void SaveGame(Game game, bool notifyCurrentUser = true) {
         string jsonString = JsonSerializer.Serialize(game, new JsonSerializerOptions { WriteIndented = true });
         var filepath = $"{filepathPrefix}{game.GameCode}.json";
         File.WriteAllText(filepath, jsonString);
 
-        _playerNotificationService.NotifyPlayersWithGameUpdate(game);
+        _playerNotificationService.NotifyPlayersWithGameUpdate(game, notifyCurrentUser);
     }
 
     public Game? LoadGame(string gameCode) {

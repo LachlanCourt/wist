@@ -31,7 +31,7 @@ public class GameSetupService : IGameSetupService {
 
         if (existingGame == null) {
             var game = new Game(gameCode, userName, userId);
-            _saveGameService.SaveGame(game);
+            _saveGameService.SaveGame(game, false);
         } else {
             existingGame.AddNewPlayer(userName, userId);
             _saveGameService.SaveGame(existingGame);
@@ -56,9 +56,9 @@ public class GameSetupService : IGameSetupService {
         game.CurrentGameState = GameState.PLAYING;
         game.CurrentRoundState = RoundState.BETTING;
 
-        game.DealCards();
-
         game.CurrentPlayer = userId;
+       
+        game.StartRound();
 
         _saveGameService.SaveGame(game);
         return true;

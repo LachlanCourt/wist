@@ -1,0 +1,177 @@
+{
+  "GameCode": "R33ULJ",
+  "Players": [
+    {
+      "UserName": "latch",
+      "UserId": "b5c72ba6-3dfd-4e1e-99b2-b318b23d45bd",
+      "Cards": [
+        {
+          "Suit": "DIAMONDS",
+          "Value": 1
+        },
+        {
+          "Suit": "HEARTS",
+          "Value": 11
+        },
+        {
+          "Suit": "CLUBS",
+          "Value": 6
+        },
+        {
+          "Suit": "SPADES",
+          "Value": 13
+        },
+        {
+          "Suit": "HEARTS",
+          "Value": 4
+        },
+        {
+          "Suit": "SPADES",
+          "Value": 6
+        },
+        {
+          "Suit": "CLUBS",
+          "Value": 2
+        },
+        {
+          "Suit": "DIAMONDS",
+          "Value": 7
+        },
+        {
+          "Suit": "CLUBS",
+          "Value": 9
+        },
+        {
+          "Suit": "HEARTS",
+          "Value": 6
+        }
+      ]
+    },
+    {
+      "UserName": "lorna",
+      "UserId": "a2a74726-4da7-46f8-8861-2cbb4e6df53e",
+      "Cards": [
+        {
+          "Suit": "SPADES",
+          "Value": 2
+        },
+        {
+          "Suit": "SPADES",
+          "Value": 1
+        },
+        {
+          "Suit": "CLUBS",
+          "Value": 1
+        },
+        {
+          "Suit": "CLUBS",
+          "Value": 11
+        },
+        {
+          "Suit": "SPADES",
+          "Value": 11
+        },
+        {
+          "Suit": "DIAMONDS",
+          "Value": 13
+        },
+        {
+          "Suit": "DIAMONDS",
+          "Value": 4
+        },
+        {
+          "Suit": "HEARTS",
+          "Value": 3
+        },
+        {
+          "Suit": "SPADES",
+          "Value": 4
+        },
+        {
+          "Suit": "DIAMONDS",
+          "Value": 6
+        }
+      ]
+    },
+    {
+      "UserName": "ollie",
+      "UserId": "36c09b29-efe9-454a-84df-4b6a17f47142",
+      "Cards": [
+        {
+          "Suit": "DIAMONDS",
+          "Value": 8
+        },
+        {
+          "Suit": "SPADES",
+          "Value": 5
+        },
+        {
+          "Suit": "CLUBS",
+          "Value": 4
+        },
+        {
+          "Suit": "SPADES",
+          "Value": 9
+        },
+        {
+          "Suit": "CLUBS",
+          "Value": 10
+        },
+        {
+          "Suit": "DIAMONDS",
+          "Value": 2
+        },
+        {
+          "Suit": "HEARTS",
+          "Value": 7
+        },
+        {
+          "Suit": "HEARTS",
+          "Value": 13
+        },
+        {
+          "Suit": "SPADES",
+          "Value": 3
+        },
+        {
+          "Suit": "DIAMONDS",
+          "Value": 12
+        }
+      ]
+    }
+  ],
+  "RoundNumber": 1,
+  "TrickNumber": 1,
+  "HostId": "b5c72ba6-3dfd-4e1e-99b2-b318b23d45bd",
+  "CurrentGameState": "PLAYING",
+  "CurrentRoundState": "BETTING",
+  "CurrentPlayer": "b5c72ba6-3dfd-4e1e-99b2-b318b23d45bd",
+  "ValidBetsThisRound": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "ValidBetsThisTurn": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "CurrentBetTotal": 0,
+  "CardsThisRound": 10
+}
